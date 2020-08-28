@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../resource/css/bootstrap.css">
+  <link rel="stylesheet" href="../resource/css/iconfont.css">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div id="header">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">全部车型</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BMW服务</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BMW天地</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">BMW官方商城</a>
+            </li>
+            <span class="iconfont icon-search"
+              ></span>
+            <span id="login" class="iconfont icon-mine" style="font-size:30px;margin-left:20px;line-height: 100px;color: gray"></span>
+            <span class="iconfont icon-weizhi"
+              style="font-size:30px;margin-left:30px;line-height: 100px;color: gray;"></span>
+              <h1><img src="../resource/images/bmw_2020_module_box_white.png" alt=""></h1>
+        </ul>
+        <div class="liBox">
+            <div class="active">one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+        </div>
+    </div>
+    
+    <div id="banner">
+        <div class="pic"><img src="../resource/images/4.jpeg" alt=""></div>
+        <div class="content">
+            <form>
+                <div class="form-group">
+                  <label for="username" style="color: rgb(46, 46, 214);font-weight: bold;font-size: 20px;">用户名
+                  <input type="username" class="form-control" id="username" placeholder="请输入4-16位字母数字" ></label>
+                </div>
+                <div class="form-group">
+                  <label for="password" style="color: rgb(48, 48, 228);font-weight: bold;font-size: 20px;">密码
+                  <input type="password" class="form-control" id="password" placeholder="请输入8-16位数字" ></label>
+                </div>
+                <input type="button" value="登陆" style="font-weight:bold" id="btn1">
+                <input type="button" value="注册" style="font-weight:bold" id="btn2">
+              </form>
+        </div>
+        <div id="tip1" class="tip1">您输入的用户名的格式不正确请重新输入</div>
+        <div id="tip2" class="tip2">您输入的密码的格式不正确请重新输入</div>
+    </div>
+   <script src="../js/login.js"></script>
+</body>
+</html>

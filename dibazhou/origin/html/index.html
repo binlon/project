@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../resource/css/bootstrap.css">
+  <link rel="stylesheet" href="../resource/css/iconfont.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <style>
+  </style>
+</head>
+
+
+<body>
+  <!-- 引入框架js -->
+  <script src="../resource/js/jquery.js"></script>
+  <script src="../resource/js/bootstrap.js"></script>
+  <script src="../resource/js/bootstrap.bundle.js"></script>
+  <!-- 响应式轮播图 -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- header头部导航 -->
+    <div class="header">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">全部车型</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BMW服务</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BMW天地</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">BMW官方商城</a>
+      </li>
+      <span class="iconfont icon-search"
+        style="font-size: 20px;"></span>
+      <span id="login" class="iconfont icon-mine" style="font-size:20px;margin-left:40px;line-height: 100px;color: gray"></span>
+      <span class="iconfont icon-weizhi"
+        style="font-size:20px;margin-left:30px;line-height: 100px;color: gray;"></span>
+        <h1><img src="../resource/images/bmw_2020_module_box_white.png" alt=""></h1>
+    </ul>
+      <div class="liBox">
+      <div class="active1">one</div>
+      <div>two</div>
+      <div>three</div>
+      <div>four</div>
+  </div>
+  </div>
+    <!-- 轮播图部分 -->
+    <!-- 小圆点 -->
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <!-- 图片部分 -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../resource/images/1.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="../resource/images/2.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="../resource/images/3..jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item ">
+        <img src="../resource/images/4.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="../resource/images/5.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="../resource/images/6.jpeg" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <!-- 左右按钮 -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- 选项卡 -->
+  <div id="pn">
+    <ul class="pnheader clearfix">
+      <li class="active1">按类别查看</li>
+      <li style="float:left">按车系查看</li>
+    </ul>
+    <!-- 分页 -->
+    <div class="content">
+      <div class="container">
+        <dl class="lis">
+          <dt> <img src="../resource/images/pg1.png" alt=""></dt>
+          <dd> 
+            <span><h2>创新BMW X7</h2></span>
+            <span><h1>￥999999999</h1></span>
+            <button id="btn">点击购买</button>
+          </dd>
+        </dl>  
+
+      </div>
+     
+      <div id="structs"></div>
+    </div>
+  </div>
+  <!-- 轮播图部分 -->
+  <!-- 标题部分 -->
+  <div class="title">
+    <h2>活动悦享与金融礼遇</h2>
+  </div>
+  <!-- 图片标题 -->
+  <div id="cirs" class="cirs">
+    <div>创新BMW X7</div>
+    <div>two</div>
+    <div>three</div>
+    <div>four</div>
+    <div>five</div>
+    <div>six</div>
+  </div>
+  <!-- 图片及文字介绍部分 -->
+  <div id="box" class="box">
+    <ul id="carousel" class="carousel">
+      <li><img src="../resource/images/7.jpg" alt="">
+        <span>
+          <h3>即日起至2020年9月30日，为您带来创新BMW X7, 即享金融方案：5年超长贷期轻松购车。忠诚客户尊享利率低至3.88%。非凡自如，惬意享受。
+          </h3>
+          金融政策信息即日起至2020年9月30日有效。*以上忠诚客户指BMW及MINI车主及其直系亲属（夫妻、父母、子女、直系兄弟姐妹）置换或者增购创新BMW X7，在原有优惠金融方案的基础上，享受1%忠诚客户专属金融利率优惠。
+          *详情请咨询BMW授权经销商。
+        </span></li>
+      <li><img src="../resource/images/8.jpg" alt=""><span></span></li>
+      <li><img src="../resource/images/9.jpg" alt=""><span></span></li>
+      <li><img src="../resource/images/10.jpg" alt=""><span></span></li>
+      <li><img src="../resource/images/7.jpg" alt=""><span></span></li>
+      <li><img src="../resource/images/8.jpg" alt=""><span></span></li>
+    </ul>
+    <!-- 按钮 -->
+    <div id="btns" class="btns">
+      <div id="leftBtn" class="leftBtn">&lt;</div>
+      <div id="rightBtn" class="rightBtn">&gt;</div>
+    </div>
+  </div>
+  <script src="../js/index.js"></script>
+ <script src="../js/pn.js"></script>
+</body>
+
+</html>

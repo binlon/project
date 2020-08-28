@@ -1,0 +1,106 @@
+#header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#header .nav {
+    width: 1200px;
+    height: 100px;
+    line-height: 80px;
+    margin: 0 auto;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+    position: relative;
+    font-size: 20px;
+   
+  }
+  #header .nav li a{
+    color: gray;
+  }
+  #header .nav li:hover a{
+    color: blue;
+  }
+  #header .nav li:hover{
+    border-bottom: 3px solid blue;
+  }
+  #header .nav .icon-search{
+    height: 100px;
+    font-size:30px;
+    margin-left:500px;
+    line-height: 100px;
+    color: gray
+  }
+  #header .nav span:hover{
+    border-bottom: 3px solid blue;
+  }
+  #header .nav h1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right:-100px;
+  }
+  #header .nav h1 img{
+    width: 100%;
+    height: 100%;
+  }
+  #header .liBox{
+      width: 1300px;
+      height: 0;
+      margin: 0 auto;
+      background-color: white;
+      overflow: auto;
+  }
+  #header .liBox div{
+      display: none
+  }
+  #header .liBox div.active{
+      display: block;
+  }
+  #banner{
+      width: 100%;
+   
+      position: relative;
+  }
+  #banner .pic{
+      width: 100%;
+      
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  #banner .pic img{
+      width: 100%;
+      height: 100%;
+  }
+  #banner .content{
+      position:fixed;
+      top: 300px;
+      left: 30%;
+      width: 500px;
+      height: 500px;
+  }
+  #banner .tip{
+      position: fixed;
+      top: 200px;
+      left: 30%;
+      width: 500px;
+      height: 50px;
+      font-size: 20px;
+      color: red;
+      display: none;
+     
+  }
+  #banner .tip2{
+    position: fixed;
+    top: 100px;
+    left: 30%;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    display: none;
+   
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,210 @@
+
+#carouselExampleIndicators .header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#carouselExampleIndicators .nav {
+  width: 1200px;
+  height: 100px;
+  line-height: 80px;
+  margin: 0 auto;
+  font-weight: 700;
+  border-bottom: 1px solid gray;
+  position: relative;
+  font-size: 20px;
+ 
+}
+#carouselExampleIndicators .nav li a{
+  color: gray;
+}
+#carouselExampleIndicators .nav li:hover a{
+  color: blue;
+}
+#carouselExampleIndicators .nav li:hover{
+  border-bottom: 3px solid blue;
+}
+#carouselExampleIndicators .nav .icon-search{
+  height: 100px;
+  font-size:20px;
+  margin-left:500px;
+  line-height: 100px;
+  color: gray
+}
+#carouselExampleIndicators .nav span:hover{
+  border-bottom: 3px solid blue;
+}
+#carouselExampleIndicators .nav h1{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right:-100px;
+}
+#carouselExampleIndicators .nav h1 img{
+  width: 100%;
+  height: 100%;
+}
+#carouselExampleIndicators .header .liBox{
+  width: 1300px;
+  height: 0;
+  margin: 0 auto;
+  background-color: white;
+  overflow: auto;
+}
+#carouselExampleIndicators .header .liBox div{
+  display: none
+}
+#carouselExampleIndicators .header .liBox div.active1{
+  display: block;
+}
+#pn{
+  width: 100%; 
+  margin-bottom:300px;
+}
+#pn .pnheader{
+  width:1455px;
+  height: 80px;
+  margin: 0 auto;
+  list-style-type:none;
+  line-height:80px;
+  border-bottom:1px solid gray;
+  font-size: 30px;
+}
+
+#pn .pnheader li{
+  width: 200px;
+  text-align: center;
+  float:left;
+  margin-right:20px;
+}
+#pn .pnheader li.active1{
+  color: blue;
+  border-bottom: 3px solid blue;
+  
+}
+.clearFix{
+  content:"";
+  display: block;
+  clear:both;
+}
+#pn .content{
+  width: 1455px;
+  height: 450px;
+  margin: 0 auto;
+ 
+}
+#pn .content div{
+ 
+  height: 100%;
+  display:none;
+}
+#pn .content div.active1{
+  display: block;
+}
+#pn .content .container{
+  height: 450px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  
+}
+/* #pn .content .container .lis{
+  width: 300px;
+  height: 400px;
+  background-color: red;
+}
+#pn .content .container .lis dt{
+  width: 300px;
+  height: 50%;
+}
+#pn .content .container .lis dt img{
+  width: 100%;
+  height: 100%;
+} */
+.title{
+  width: 100%;
+  height: 45px;
+}
+.title h2{
+  width: 1455px;
+  margin: 50px auto;
+}
+#box{
+  position: relative;
+  width: 1455px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#box ul{
+  list-style: none;
+  padding-left: 0px;
+  position: absolute;
+  left:0;
+  width:10185px
+}
+#box ul li{
+ width: 1455px;
+  float: left;
+}
+#box ul li img{
+ width: 50%;
+ height: 100%;
+  float: left;
+}
+#box ul li span{
+  width: 600px;
+  float: left;
+}
+#box .btns {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  height: 100px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+
+
+}#btns div {
+  flex-basis: 40px;
+  cursor: pointer;
+ 
+}
+
+ .cirs {
+  width: 1455px;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 15px;
+}
+
+ .cirs div {
+  text-align: center;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+ 
+}
+
+ .cirs div.active {
+  color:red;
+  border-bottom:5px solid blue;
+  font-weight: bold;
+}
+
+
+/*# sourceMappingURL=index.css.map */
